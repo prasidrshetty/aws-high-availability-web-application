@@ -31,6 +31,8 @@ Internet Users → Application Load Balancer → Target Group → EC2 Instance 1
 - Successfully hosted a webpage on both EC2 instances.
 - Accessed the application using the ALB DNS name.
 - Verified traffic distribution by refreshing the webpage and observing responses from both instances.
+-Tested failover by stopping one EC2 instance.
+-Verified that the ALB continued serving requests through the remaining healthy instance.
 
 ## What I Learned
 - AWS networking and VPC configuration.
